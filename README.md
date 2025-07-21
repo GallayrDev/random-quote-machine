@@ -1,12 +1,30 @@
-# React + Vite
+# Markdown Previewer - FCC Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and interactive **Markdown Previewer** built using **React** and **Bootstrap**. It fulfills the requirements of the FreeCodeCamp Front End Libraries Certification project.
 
-Currently, two official plugins are available:
+## 💡 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live preview of markdown text
+- Supports GitHub-flavored markdown (GFM)
+- Styled with Bootstrap 5
+- Responsive layout (mobile-friendly)
+- Resizable input box
+- Optional white shadow effect for better contrast
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![App Screenshot](./screenshot.png) <!-- Replace with actual screenshot path -->
+
+## 🛠️ Tech Stack
+
+- React
+- React-Markdown
+- Bootstrap 5
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/GallayrDev/markdown-previewer-fcc.git
+cd markdown-previewer-fcc
+npm install
+npm start
